@@ -1,25 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { NavLink } from 'react-router-dom'
 import './App.css'
+import { Outlet } from 'react-router-dom'
 
 function App() {
-  
-
+  const tabs = ["/","Teams","Client","About Us"]
+  console.log("outlet is ",Outlet);
   return (
     <>
-     <div className='h-16 mx-96 w-96 border-2 bg-yellow-50 rounded-3xl'>
-      <ul className='bg-transparent mt-4 flex gap-4 justify-around '>
+     <div id="navig" className='mt-2 h-16 flex items-center justify-center'>
+      <ul className='md:w-1/2 w-full border-2 md:rounded-3xl bg-yellow-50 p-2 flex gap-4 justify-around '>
       <img className="h-10 w-14 my--4"src="./logo.png" alt="" />
-        <li className='bg-transparent font-medium'>Home</li>
-        <li className='bg-transparent font-medium'>Teams</li>
-        <li className='bg-transparent font-medium'>Clients</li>
-        <li className='bg-transparent font-medium'> About us</li>
+        {tabs.map((tab)=>{
+          return (<li key = {tab} className='flex items-center justify-center bg-transparent font-medium'>
+          <NavLink to={tab} className={({isActive})=>{
+            // console.log("isactive is ",isActive);
+            //todo: use isPending if needed
+            return (isActive ? "bg-yellow-200 underline underline-offset-2" : "bg-yellow-50 ")+(" px-1 rounded-md w-full h-full flex items-center justify-center") 
+          }}>{tab == "/" ? "Home" : tab}</NavLink>
+          </li>)
+        })}
       </ul>
      </div>
-     <h1 className='flex justify-start mt-20 font-extrabold text-6xl text-fuchsia-200'>Your Path to<br/>Mental Wellness <br />Starts Here</h1>
-     <h2 className='font-bold mt-10 flex justify-start ml-10  text-white'>Empowering you to achieve mental Well being <br />through compassionate and holisti support</h2>
-     <button className='flex justify-start mt-20 border-2 h-12 w-40 pt-3 pl-10 font-medium rounded-full text-green-900 bg-fuchsia-200 ml-20'>CONNECT</button>
+     {<Outlet/>}
      </>
   )
 }
