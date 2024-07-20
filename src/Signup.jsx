@@ -1,7 +1,6 @@
 // src/Signup.jsx
 import React from "react";
 import "remixicon/fonts/remixicon.css";
-import "./style.css";
 
 const Signup = () => {
   return (
