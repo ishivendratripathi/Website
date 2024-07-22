@@ -1,6 +1,6 @@
-// src/Signup.jsx
 import React from "react";
 import "remixicon/fonts/remixicon.css";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   return (
@@ -40,12 +40,12 @@ const Signup = () => {
             className="border-2 rounded-full block mt-3 w-full px-3 py-2 bg-pink-600 text-white text-center"
           />
         </form>
-        <a
+        <Link
+          to="/signin"
           className="inline-block mt-5 text-sm underline underline-offset-1 font-semibold text-pink-800 text-center w-full"
-          href="/"
         >
           Already have an Account?
-        </a>
+        </Link>
       </div>
     </div>
   );
