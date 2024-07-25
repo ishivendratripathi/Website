@@ -22,14 +22,23 @@ const Home = () => {
     </div>
 
     {/* this is the starting of the initiative section */}
-   <div>
-    <section className="w-full h-96 bg-white mt-2">
-      <h1 className="text-center font-extrabold">Our initiative</h1>
-      <div className="w-60 m-20 flex">
-        <img src="new.png" alt="" />
+   <section className="h-4/4 w-full bg-white absolute mt-4">
+    <h1 className="text-center font-extrabold text-2xl text-green-700 mt-20 relative">
+      Our Initiatives
+    </h1>
+    <div className="flex">
+    <img className ="w-96 h-96 ml-40 mt-20 flex"src="new.png" alt="" />
+    <h1 className="font-extrabold text-5xl text-green-900 m-20 ml-28 mt-32">Nurturing your mental <br />health with <br />compassion and <br /> expertise 
+    <h4 className="font-thin text-base mt-4">Our holistic approach ensures personalized support to help you achieve balance peace and overall well being on your jounrye to mental Wellness</h4> 
+    <button className="bg-fuchsia-300 border-2 w-28 h-10 rounded-3xl text-sm font-bold">Volunteer</button>  
+      </h1>
+       </div> 
+       </section>
+
+       {/* this is the third section */}
+      <div>
+        
       </div>
-      </section>
-   </div>
     </> 
     );
 };
