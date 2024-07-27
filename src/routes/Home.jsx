@@ -22,7 +22,7 @@ const Home = () => {
     </div>
 
     {/* this is the starting of the initiative section */}
-   <section className="h-4/4 w-full bg-white absolute mt-4">
+   <section className="h-4/4 w-full bg-white p-4 mt-4">
     <h1 className="text-center font-extrabold text-2xl text-green-700 mt-20 relative">
       Our Initiatives
     </h1>
@@ -36,8 +36,8 @@ const Home = () => {
        </section>
 
        {/* this is the third section */}
-      <div>
-        
+      <div className="w-42 h-40 bg-black">
+        hi there
       </div>
     </> 
     );
