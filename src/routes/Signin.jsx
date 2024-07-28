@@ -2,8 +2,8 @@ import React from "react";
 
 const Signin = () => {
   return (
-    <div className="w-full h-screen bg-[url('https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] flex items-center justify-center">
-      <div className="w-[25vw] bg-zinc-100 px-20 py-10 rounded-[30px]">
+    <div className="w-full h-screen bg-[url('https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover flex items-center justify-center">
+      <div className="w-[90vw] md:w-[60vw] lg:w-[40vw] xl:w-[25vw] bg-zinc-100 px-8 py-10 md:px-16 lg:px-20 rounded-[30px]">
         <h1 className="text-3xl text-center font-semibold text-zinc-700 tracking-tighter capitalize leading-none">
           Welcome To mindhealth
         </h1>
