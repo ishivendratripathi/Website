@@ -36,8 +36,13 @@ const Home = () => {
        </section>
 
        {/* this is the third section */}
-      <div className="w-42 h-40 bg-black">
-        hi there
+      <div className="w-full h-96 bg-white pt-20">
+          <div>
+              <img  className="h-72 ml-44" src="new2.png" alt="" />
+              <h1 className="">
+                Empowering minds and tarnsforming lives
+              </h1>
+          </div>
       </div>
     </> 
     );
