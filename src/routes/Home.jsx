@@ -36,14 +36,15 @@ const Home = () => {
        </section>
 
        {/* this is the third section */}
-      <div className="w-full h-96 bg-white pt-20">
-          <div>
-              <img  className="h-72 ml-44" src="new2.png" alt="" />
-              <h1 className="">
-                Empowering minds and tarnsforming lives
-              </h1>
-          </div>
-      </div>
+   
+   <section>
+    <div className="h-96 bg-white flex">
+      <div>
+        <img className="h-80 w-auto flex" src="new2.png" alt="" />
+        <h1>i am shivendra tripathi</h1>
+        </div>
+        </div>
+   </section>
     </> 
     );
 };
