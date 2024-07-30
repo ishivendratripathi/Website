@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import Signin from "./Signin";
+import Signup from "./Signup";
 
 const Home = () => {
   return (
@@ -40,10 +42,14 @@ const Home = () => {
    <section>
     <div className="h-96 bg-white flex">
       <div>
-        <img className="h-80 w-auto flex" src="new2.png" alt="" />
-        <h1>i am shivendra tripathi</h1>
+        <img className="h-72 ml-40 inline-flex" src="new2.png" alt="" />
         </div>
-        </div>
+            </div>
+   </section>
+
+   {/* this is the sign up section  */}
+   <section>
+    <Signup />
    </section>
     </> 
     );
