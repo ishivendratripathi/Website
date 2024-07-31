@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import Signin from "./Signin";
 import Signup from "./Signup";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -51,7 +52,11 @@ const Home = () => {
    <section>
     <Signup />
    </section>
+
+   {/* this is the footer section */}
+   <Footer />
     </> 
+
     );
 };
 
