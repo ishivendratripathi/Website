@@ -8,4 +8,3 @@
 - [ ] Implementing functionality to send mail on submit <mark><b>HARD</b></mark>
 - [ ] Need to make the signup and sign in pages responsive <b>Easy</b>
 - [ ] Updating the home page and creating the full page 
-- [ ] going to add a new footer so can include in most of the pages
