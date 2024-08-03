@@ -53,6 +53,11 @@ const Home = () => {
     <Signup />
    </section>
 
+
+{/* this is the section for FAQ  */}
+<div className="bg-fuchsia-200 h-96 border-2">
+hi there
+</div>
    {/* this is the footer section */}
    <Footer />
     </> 
