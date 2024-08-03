@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import Signin from "./Signin";
 import Signup from "./Signup";
 import Footer from "./Footer";
+import Faq from "./Faq";
 
 const Home = () => {
   return (
@@ -53,12 +54,16 @@ const Home = () => {
     <Signup />
    </section>
 
+   {/* Faq section */}
+ <div className='bg-fuchsia-200 w-full h-lvh border-2 border-black flex'>
+  <h1 className="relative top-10 left-96 font-extrabold text-2xl text-green-700">FAQs</h1>
+<Faq />
+<Faq />
+<Faq />
 
-{/* this is the section for FAQ  */}
-<div className="bg-fuchsia-200 h-96 border-2">
-hi there
 </div>
-   {/* this is the footer section */}
+
+  {/* this is the footer section */}
    <Footer />
     </> 
 
