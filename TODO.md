@@ -7,4 +7,4 @@
 - [ ] Reading about node:mailer <mark><b>MEDIUM</b></mark>
 - [ ] Implementing functionality to send mail on submit <mark><b>HARD</b></mark>
 - [ ] Need to make the signup and sign in pages responsive <b>Easy</b>
-- [ ] Updating the home page and creating the full page 
+- [ ] doing some updates to make everything responsive
