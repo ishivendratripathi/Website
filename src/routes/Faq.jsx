@@ -1,8 +1,16 @@
 import React from 'react'
 
-const Faq = () => {
+const Faq = (props) => {
   return (
-<img className="w-3/12 h-2/3 mt-40 ml-10 z-10" src="contact.png" alt="" />
+    <div className='h-80 w-96 border-2 border-black relative top-60 rounded-2xl ml-16 bg-white overflow-scroll'>
+    <div className='flex items-center justify-center font-bold text-green-700 text-3xl m-4'>
+      {props.title}
+    </div>
+    <br />
+    <div className='flex items-center justify-center m-2'>
+      {props.description}
+    </div>
+    </div>
   )
 }
 

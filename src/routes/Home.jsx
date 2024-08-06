@@ -57,9 +57,40 @@ const Home = () => {
    {/* Faq section */}
  <div className='bg-fuchsia-200 w-full h-lvh border-2 border-black flex'>
  <h1 className="absolute left-96 ml-80 mt-16 font-extrabold text-2xl text-green-700">FAQs</h1>
-<Faq />
-<Faq />
-<Faq />
+<Faq title="What types of therapy do you offer?" description="At MindCare Solutions, we offer a
+variety of therapy options tailored
+to meet your specific needs,
+including individual therapy,
+couples therapy, family therapy,
+and group therapy. Our
+therapeutic approaches include
+cognitive-behavioral therapy
+(CBT), mindfulness-based
+therapy, and solution-focused
+therapy, among others."/>
+<Faq title="How do I know if
+therapy is right
+for me?" description="Therapy can be beneficial for anyone
+experiencing stress, anxiety,
+depression, relationship issues, or
+other mental health challenges. If
+you're feeling overwhelmed, stuck, or
+seeking personal growth, therapy can
+provide the support and tools you
+need. Our initial consultation helps
+determine the best approach for your
+unique situation."/>
+<Faq title="Is my
+information
+confidential?" description="Yes, your privacy is our top priority.
+All sessions and communications
+with our therapists are completely
+confidential. We adhere to strict
+professional and ethical guidelines to
+ensure your personal information is
+protected and your therapy
+experience is safe and secure."/>
+
 </div>
 
   {/* this is the footer section */}
