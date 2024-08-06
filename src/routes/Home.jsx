@@ -56,11 +56,10 @@ const Home = () => {
 
    {/* Faq section */}
  <div className='bg-fuchsia-200 w-full h-lvh border-2 border-black flex'>
-  <h1 className="relative top-10 left-96 font-extrabold text-2xl text-green-700">FAQs</h1>
+ <h1 className="absolute left-96 ml-80 mt-16 font-extrabold text-2xl text-green-700">FAQs</h1>
 <Faq />
 <Faq />
 <Faq />
-
 </div>
 
   {/* this is the footer section */}
