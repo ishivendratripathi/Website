@@ -4,6 +4,7 @@ import Signup from "./Signup";
 import Footer from "./Footer";
 import Faq from "./Faq";
 import Morearticles from "./Morearticles";
+import Aboutus from "./Aboutus";
 
 
 const Home = () => {
@@ -99,9 +100,17 @@ experience is safe and secure."/>
 <div className="flex">
   <h2 className="absolute ml-96 pl-72 mt-6 font-bold text-2xl text-green-800">More Articles</h2>
 <Morearticles title="5 Simple Practices to Improve YourMental Well-being Today"/>
-<Morearticles title="5 Simple Practices to Improve YourMental Well-being Today"/>
-<Morearticles title="5 Simple Practices to Improve YourMental Well-being Today"/>
+<Morearticles title="Understanding
+Anxiety: Symptoms,
+Causes, and
+Effective"/>
+<Morearticles title="The Benefits of Mindfulness Meditation for Mental"/>
 </div>
+
+
+{/* this is the about us section  */}
+<Aboutus />
+
   {/* this is the footer section */}
    <Footer />
     </> 
