@@ -3,6 +3,8 @@ import Signin from "./Signin";
 import Signup from "./Signup";
 import Footer from "./Footer";
 import Faq from "./Faq";
+import Morearticles from "./Morearticles";
+
 
 const Home = () => {
   return (
@@ -93,10 +95,16 @@ experience is safe and secure."/>
 
 </div>
 
+{/* this is for the more artciles page */}
+<div className="flex">
+  <h2 className="absolute ml-96 pl-72 mt-6 font-bold text-2xl text-green-800">More Articles</h2>
+<Morearticles title="5 Simple Practices to Improve YourMental Well-being Today"/>
+<Morearticles title="5 Simple Practices to Improve YourMental Well-being Today"/>
+<Morearticles title="5 Simple Practices to Improve YourMental Well-being Today"/>
+</div>
   {/* this is the footer section */}
    <Footer />
     </> 
-
     );
 };
 
