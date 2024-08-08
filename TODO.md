@@ -7,4 +7,4 @@
 - [ ] Reading about node:mailer <mark><b>MEDIUM</b></mark>
 - [ ] Implementing functionality to send mail on submit <mark><b>HARD</b></mark>
 - [ ] Need to make the signup and sign in pages responsive <b>Easy</b>
-- [ ] doing some updates to make everything responsive
+- [ ] doing some updates to make everything responsive an using the tailwind library
