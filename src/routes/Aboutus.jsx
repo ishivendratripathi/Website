@@ -6,7 +6,7 @@ export default function Aboutus() {
     <div className='h-lvh bg-green-900'>
 
 <div className='grid grid-cols-2'>
-  <h2 className='cols-cols-1 flex relative top-10'>About us </h2>
+  <h2 className='col-span-2 flex relative top-10 left-20'>About us </h2>
 </div>
 
     </div>
