@@ -8,4 +8,5 @@
 - [ ] Implementing functionality to send mail on submit <mark><b>HARD</b></mark>
 - [ ] Need to make the signup and sign in pages responsive <b>Easy</b>
 - [ ] did the about us page and redered it 
-- [ ] did some rerendering issues
+- [ ] did some reredering and updated the main page
+
