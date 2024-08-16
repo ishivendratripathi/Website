@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import Faq from "./Faq";
 import Morearticles from "./Morearticles";
 import Aboutus from "./Aboutus";
-
+import Minds from "./Minds";
 
 const Home = () => {
   return (
@@ -43,14 +43,7 @@ const Home = () => {
        </section>
 
        {/* this is the third section */}
-   
-   <section>
-    <div className="h-96 bg-white flex">
-      <div>
-        <img className="h-72 ml-40 inline-flex" src="new2.png" alt="" />
-        </div>
-            </div>
-   </section>
+   <Minds /> 
 
    {/* this is the sign up section  */}
    <section>
