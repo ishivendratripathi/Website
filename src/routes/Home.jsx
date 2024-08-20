@@ -10,8 +10,8 @@ import Minds from "./Minds";
 const Home = () => {
   return (
     <>
-    <div className="mt-15 pt-5 md:w-auto w-full ">
-      <h1 className="text-center md:text-left flex md:ml-20 justify-start md:m-4 mt-20 font-extrabold text-6xl text-fuchsia-200">
+    <div className="h-lvh mt-15 pt-5 md:w-auto w-full ">
+      <h1 className="text-center md:text-left flex md:ml-20 justify-start md:m-20 mt-20 font-extrabold text-6xl text-fuchsia-200">
         Your Path to
         <br />
         Mental Wellness <br />
