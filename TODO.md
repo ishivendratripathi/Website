@@ -9,3 +9,5 @@
 - [ ] will implement from tommorrow and will try to make more pages so that it will change the main directory
 - [ ] will try to do some new things and try to make it very viable 
 - [ ] will try to do some new things and implementation do the pages of the new file 
+- [ ] trying new and updating the current reporsitories to updates
+
