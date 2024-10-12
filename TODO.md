@@ -9,4 +9,11 @@
 - [] going to implement some of the css libraries into this project
 - [] going to implement some of the new things into this project
 
+- [] going to implement some of the new things into this project
+- [] going to implement some of the new things into this project
+- [] going to implement some of the new things into this project
+- [] going to implement some of the new things into this project
+- [] going to implement some of the new things into this project
+
+
 
